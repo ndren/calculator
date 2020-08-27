@@ -1,0 +1,27 @@
+body {
+    background-color: darkgray;
+    font-size: 14px;
+    font-family: monospace;
+}
+button {
+    flex: 1;
+}
+#display {
+    align-self: flex-end;
+    margin: 1px;
+}
+#calculator {
+    background-color: lightblue;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    align-content: space-between;
+    border: 1.5px solid blue;
+}
+.rows {
+    display: flex;
+    justify-content: space-around;
+    border: 0.1px ridge grey;
+}
