@@ -25,3 +25,18 @@ button {
     justify-content: space-around;
     border: 0.1px ridge grey;
 }
+.operand {
+    background-color: mediumaquamarine;
+}
+.operator {
+    background-color: lightblue;
+}
+#equalSign {
+    background-color: lightgreen;
+}
+#clear {
+    background-color: #b89099;
+}
+#decimalPoint {
+    background-color: #265852
+}

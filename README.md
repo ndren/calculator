@@ -1,0 +1,1 @@
+Made a calculator in plain HTML, CSS and JS. Learned to handle events, keyboard input, and parsing arbitrary input. [Live](https://btdmaster.github.io/calculator/) on GitHub Pages.

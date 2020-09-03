@@ -88,3 +88,30 @@ operators.forEach(operator => {
 equalSign.addEventListener('click', storeEquation);
 clear.addEventListener('click', resetAll);
 decimalPoint.addEventListener('click', appendPoint);
+
+keys = {
+    "0": "zero",
+    "1": "one",
+    "2": "two",
+    "3": "three",
+    "4": "four",
+    "5": "five",
+    "6": "six",
+    "7": "seven",
+    "8": "eight",
+    "9": "nine",
+    "-": "minus",
+    "+": "plus",
+    "*": "times",
+    "/": "divide",
+    "c": "clear",
+    "=": "equalSign",
+    "Enter": "equalSign"
+}
+for (let key in keys) {
+    window.addEventListener('keyup', event => {
+        if (event.key === key) {
+            document.getElementById(keys[key]).click();
+        }
+    })
+}
