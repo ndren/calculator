@@ -72,12 +72,12 @@ let newNum;
 let oldNum;
 let selectedOperator;
 displayToBeCleared = false;
-let display = document.querySelector('#display');
-let operands = document.querySelectorAll('.operand');
-let operators = document.querySelectorAll('.operator');
-let equalSign = document.querySelector('#equalSign');
-let clear = document.querySelector('#clear');
-let decimalPoint = document.querySelector('#decimalPoint')
+const display = document.querySelector('#display');
+const operands = document.querySelectorAll('.operand');
+const operators = document.querySelectorAll('.operator');
+const equalSign = document.querySelector('#equalSign');
+const clear = document.querySelector('#clear');
+const decimalPoint = document.querySelector('#decimalPoint')
 
 operands.forEach(operand => {
     operand.addEventListener('click', appendDigit);
@@ -108,7 +108,7 @@ keys = {
     "=": "equalSign",
     "Enter": "equalSign"
 }
-for (let key in keys) {
+for (const key in keys) {
     window.addEventListener('keyup', event => {
         if (event.key === key) {
             document.getElementById(keys[key]).click();
