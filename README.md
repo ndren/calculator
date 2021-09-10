@@ -1,1 +1,1 @@
-Made a calculator in plain HTML, CSS and JS. Learned to handle events, keyboard input, and parsing arbitrary input. [Live](https://btdmaster.github.io/calculator/) on GitHub Pages.
+Made a calculator in plain HTML, CSS and JS. Learned how to implement event-driven programming, arbitrary input parsing and front-end UX.
